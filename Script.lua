@@ -20,7 +20,8 @@ local ty = Instance.new("TextLabel")
 --Properties:
 
 Home.Name = "Home"
-Home.Parent = game.fds
+-- Home.Parent = game:GetService("Players").LocalPlayer.PlayerGui
+Home.Parent = game:GetService("CoreGui")
 Home.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Home.ResetOnSpawn = false
 
