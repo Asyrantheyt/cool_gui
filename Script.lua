@@ -177,3 +177,4 @@ local function AKDKDKA_fake_script()
 	wait(3)
 	script.Parent.Text = "Username: "..tostring(game:GetService("Players").LocalPlayer.Name)
 end
+coroutine.warp(AKDKDKA_fake_script)()
